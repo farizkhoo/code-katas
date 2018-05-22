@@ -1,7 +1,7 @@
 def LongestWord(sen)
 
   # code goes here
-  sen_array = sen.scan(/[a-zA-z]+/)
+  sen_array = sen.scan(/[a-zA-Z]+/)
 
   longest_word = sen_array[0]
 
